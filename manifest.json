@@ -1,12 +1,12 @@
 {
     "name":"AutoForm",
     "version":"1.0.0",
+    "description": "A simple extension which fills all the forms automatically",
     "manifest_version":2,
     "content_scripts":[
         {
             "matches":["<all_urls>"],
-            "js":["script.js"],
-            "css":["style.css"]
+            "js":["script.js"]
         }
     ]
 }
